@@ -20,7 +20,7 @@ namespace Program_02.Entities
 
         public void AddInstallment(Installment installment)
         {
-            Installment.Add(installment);
+            Installments.Add(installment);
         }
     }
 }
